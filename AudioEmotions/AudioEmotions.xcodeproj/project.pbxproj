@@ -1,0 +1,449 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A3ABF841DEFB694002BFFA9 /* ServerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A3ABF831DEFB694002BFFA9 /* ServerManager.swift */; };
+		1A5D23011E18504A002A3A65 /* 8-Bit-Noise-1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1A5D23001E185049002A3A65 /* 8-Bit-Noise-1.wav */; };
+		1A94BDCA1DEE7627001479AA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A94BDC91DEE7627001479AA /* AppDelegate.swift */; };
+		1A94BDCC1DEE7627001479AA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A94BDCB1DEE7627001479AA /* ViewController.swift */; };
+		1A94BDCF1DEE7627001479AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A94BDCD1DEE7627001479AA /* Main.storyboard */; };
+		1A94BDD21DEE7627001479AA /* AudioEmotions.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1A94BDD01DEE7627001479AA /* AudioEmotions.xcdatamodeld */; };
+		1A94BDD41DEE7627001479AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A94BDD31DEE7627001479AA /* Assets.xcassets */; };
+		1A94BDD71DEE7627001479AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A94BDD51DEE7627001479AA /* LaunchScreen.storyboard */; };
+		1A94BDDF1DEE77BB001479AA /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 1A94BDDE1DEE77BB001479AA /* Podfile */; };
+		1A94BDE31DEE7B1F001479AA /* Pods_AudioEmotions.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A94BDE21DEE7B1F001479AA /* Pods_AudioEmotions.framework */; };
+		1AF6A5771DF4F2030041EBA3 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF6A5761DF4F2030041EBA3 /* Utility.swift */; };
+		1AF6A57A1DF4F5B40041EBA3 /* AudioFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF6A5791DF4F5B40041EBA3 /* AudioFile.swift */; };
+		942F40FF97445D61625D2C16 /* Pods_AudioEmotions.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AF72C3FC218F5A1F7730D67 /* Pods_AudioEmotions.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1A3ABF831DEFB694002BFFA9 /* ServerManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ServerManager.swift; path = Classes/ServerManager.swift; sourceTree = "<group>"; };
+		1A5D23001E185049002A3A65 /* 8-Bit-Noise-1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "8-Bit-Noise-1.wav"; path = "Classes/8-Bit-Noise-1.wav"; sourceTree = "<group>"; };
+		1A94BDC61DEE7627001479AA /* AudioEmotions.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AudioEmotions.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A94BDC91DEE7627001479AA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1A94BDCB1DEE7627001479AA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1A94BDCE1DEE7627001479AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1A94BDD11DEE7627001479AA /* AudioEmotions.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AudioEmotions.xcdatamodel; sourceTree = "<group>"; };
+		1A94BDD31DEE7627001479AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1A94BDD61DEE7627001479AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1A94BDD81DEE7627001479AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A94BDDE1DEE77BB001479AA /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		1A94BDE01DEE7A86001479AA /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = "Pods/../build/Debug-iphoneos/Alamofire/Alamofire.framework"; sourceTree = "<group>"; };
+		1A94BDE21DEE7B1F001479AA /* Pods_AudioEmotions.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Pods_AudioEmotions.framework; path = "Pods/../build/Release-iphoneos/Pods_AudioEmotions.framework"; sourceTree = "<group>"; };
+		1AF6A5761DF4F2030041EBA3 /* Utility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Utility.swift; path = Classes/Utility.swift; sourceTree = "<group>"; };
+		1AF6A5791DF4F5B40041EBA3 /* AudioFile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AudioFile.swift; path = Classes/AudioFile.swift; sourceTree = "<group>"; };
+		2B2D33294DC2EDFA8E521932 /* Pods-AudioEmotions.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AudioEmotions.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AudioEmotions/Pods-AudioEmotions.debug.xcconfig"; sourceTree = "<group>"; };
+		8AF72C3FC218F5A1F7730D67 /* Pods_AudioEmotions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AudioEmotions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7F178C8427E2F007DE91BDB /* Pods-AudioEmotions.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AudioEmotions.release.xcconfig"; path = "Pods/Target Support Files/Pods-AudioEmotions/Pods-AudioEmotions.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1A94BDC31DEE7627001479AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A94BDE31DEE7B1F001479AA /* Pods_AudioEmotions.framework in Frameworks */,
+				942F40FF97445D61625D2C16 /* Pods_AudioEmotions.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A94BDBD1DEE7627001479AA = {
+			isa = PBXGroup;
+			children = (
+				1A94BDC81DEE7627001479AA /* AudioEmotions */,
+				1A94BDC71DEE7627001479AA /* Products */,
+				420172AD06755D2B0303B783 /* Pods */,
+				54B41862CB62426087E681A9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1A94BDC71DEE7627001479AA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1A94BDC61DEE7627001479AA /* AudioEmotions.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1A94BDC81DEE7627001479AA /* AudioEmotions */ = {
+			isa = PBXGroup;
+			children = (
+				1AF6A5781DF4F5A00041EBA3 /* Model */,
+				1A94BDDE1DEE77BB001479AA /* Podfile */,
+				1A94BDC91DEE7627001479AA /* AppDelegate.swift */,
+				1A94BDCB1DEE7627001479AA /* ViewController.swift */,
+				1A94BDCD1DEE7627001479AA /* Main.storyboard */,
+				1A94BDD31DEE7627001479AA /* Assets.xcassets */,
+				1A94BDD51DEE7627001479AA /* LaunchScreen.storyboard */,
+				1A94BDD81DEE7627001479AA /* Info.plist */,
+				1A3ABF831DEFB694002BFFA9 /* ServerManager.swift */,
+				1A5D23001E185049002A3A65 /* 8-Bit-Noise-1.wav */,
+				1AF6A5761DF4F2030041EBA3 /* Utility.swift */,
+			);
+			path = AudioEmotions;
+			sourceTree = "<group>";
+		};
+		1AF6A5781DF4F5A00041EBA3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1A94BDD01DEE7627001479AA /* AudioEmotions.xcdatamodeld */,
+				1AF6A5791DF4F5B40041EBA3 /* AudioFile.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		420172AD06755D2B0303B783 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2B2D33294DC2EDFA8E521932 /* Pods-AudioEmotions.debug.xcconfig */,
+				E7F178C8427E2F007DE91BDB /* Pods-AudioEmotions.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		54B41862CB62426087E681A9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1A94BDE21DEE7B1F001479AA /* Pods_AudioEmotions.framework */,
+				1A94BDE01DEE7A86001479AA /* Alamofire.framework */,
+				8AF72C3FC218F5A1F7730D67 /* Pods_AudioEmotions.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1A94BDC51DEE7627001479AA /* AudioEmotions */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A94BDDB1DEE7627001479AA /* Build configuration list for PBXNativeTarget "AudioEmotions" */;
+			buildPhases = (
+				78B7266F6B6E874123874E8F /* [CP] Check Pods Manifest.lock */,
+				1A94BDC21DEE7627001479AA /* Sources */,
+				1A94BDC31DEE7627001479AA /* Frameworks */,
+				1A94BDC41DEE7627001479AA /* Resources */,
+				EC1D32D5D8CD030EF5504CB2 /* [CP] Embed Pods Frameworks */,
+				D93704488B712D806CC5FA94 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AudioEmotions;
+			productName = AudioEmotions;
+			productReference = 1A94BDC61DEE7627001479AA /* AudioEmotions.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1A94BDBE1DEE7627001479AA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Tejas Kharva";
+				TargetAttributes = {
+					1A94BDC51DEE7627001479AA = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 4T78EZTYK5;
+						LastSwiftMigration = 0800;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 1A94BDC11DEE7627001479AA /* Build configuration list for PBXProject "AudioEmotions" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1A94BDBD1DEE7627001479AA;
+			productRefGroup = 1A94BDC71DEE7627001479AA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1A94BDC51DEE7627001479AA /* AudioEmotions */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1A94BDC41DEE7627001479AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A94BDD71DEE7627001479AA /* LaunchScreen.storyboard in Resources */,
+				1A94BDD41DEE7627001479AA /* Assets.xcassets in Resources */,
+				1A5D23011E18504A002A3A65 /* 8-Bit-Noise-1.wav in Resources */,
+				1A94BDDF1DEE77BB001479AA /* Podfile in Resources */,
+				1A94BDCF1DEE7627001479AA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		78B7266F6B6E874123874E8F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D93704488B712D806CC5FA94 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AudioEmotions/Pods-AudioEmotions-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EC1D32D5D8CD030EF5504CB2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AudioEmotions/Pods-AudioEmotions-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1A94BDC21DEE7627001479AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AF6A57A1DF4F5B40041EBA3 /* AudioFile.swift in Sources */,
+				1AF6A5771DF4F2030041EBA3 /* Utility.swift in Sources */,
+				1A3ABF841DEFB694002BFFA9 /* ServerManager.swift in Sources */,
+				1A94BDCC1DEE7627001479AA /* ViewController.swift in Sources */,
+				1A94BDD21DEE7627001479AA /* AudioEmotions.xcdatamodeld in Sources */,
+				1A94BDCA1DEE7627001479AA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1A94BDCD1DEE7627001479AA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A94BDCE1DEE7627001479AA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1A94BDD51DEE7627001479AA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A94BDD61DEE7627001479AA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1A94BDD91DEE7627001479AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1A94BDDA1DEE7627001479AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1A94BDDC1DEE7627001479AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B2D33294DC2EDFA8E521932 /* Pods-AudioEmotions.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4T78EZTYK5;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/Alamofire",
+					"$(PROJECT_DIR)/build/Release-iphoneos",
+				);
+				INFOPLIST_FILE = AudioEmotions/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Tejas.AudioEmotions;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
+			};
+			name = Debug;
+		};
+		1A94BDDD1DEE7627001479AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7F178C8427E2F007DE91BDB /* Pods-AudioEmotions.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4T78EZTYK5;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/Alamofire",
+					"$(PROJECT_DIR)/build/Release-iphoneos",
+				);
+				INFOPLIST_FILE = AudioEmotions/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Tejas.AudioEmotions;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1A94BDC11DEE7627001479AA /* Build configuration list for PBXProject "AudioEmotions" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A94BDD91DEE7627001479AA /* Debug */,
+				1A94BDDA1DEE7627001479AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A94BDDB1DEE7627001479AA /* Build configuration list for PBXNativeTarget "AudioEmotions" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A94BDDC1DEE7627001479AA /* Debug */,
+				1A94BDDD1DEE7627001479AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1A94BDD01DEE7627001479AA /* AudioEmotions.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1A94BDD11DEE7627001479AA /* AudioEmotions.xcdatamodel */,
+			);
+			currentVersion = 1A94BDD11DEE7627001479AA /* AudioEmotions.xcdatamodel */;
+			path = AudioEmotions.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 1A94BDBE1DEE7627001479AA /* Project object */;
+}
